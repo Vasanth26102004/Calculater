@@ -1,0 +1,36 @@
+body {
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    border: 2px gray solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.screen {
+    height: 80px;
+    width: 150px;
+    margin-bottom: 2.5px;
+    background-color: rgb(179, 179, 179);
+    border: 1px black solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.input,
+.output {
+    text-align: end;
+    margin: 15px 5px;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    margin: 2.5px;
+}
