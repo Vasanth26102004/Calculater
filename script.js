@@ -14,9 +14,15 @@ function AppendValue(value) {
 }
 
 function ResultValue() {
-  output.textContent = eval(Equa);
-  Equa = output.textContent
-  output.style.color = '#000';
+    try {
+        output.textContent = eval(Equa);
+        Equa = output.textContent
+        output.style.color = '#000';
+    } catch (error) {
+        
+        output.textContent = "Error";
+        output.style.color = '#000';
+    }
 }
 
 function ClearValue() {
