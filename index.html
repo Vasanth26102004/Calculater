@@ -11,35 +11,40 @@
 </head>
 
 <body>
+
     <div class="calculator">
         <div class="screen">
-            <h3 class="input"> </h3>
+            <h4 class="input"></h4>
             <h4 class="output"> </h4>
+        </div>   
+        <div class="btns">
+            <button class="btn-op" onclick="AppendValue('/')" id="/">/</button>
+            <button class="btn" onclick="AppendValue('9')" id="9">9</button>
+            <button class="btn" onclick="AppendValue('8')" id="8">8</button>
+            <button class="btn" onclick="AppendValue('7')" id="7">7</button>
         </div>
-        <div>
-            <button id="9">9</button>
-            <button id="8">8</button>
-            <button id="7">7</button>
-            <button id="+">+</button>
+        <div class="btns">
+            <button class="btn-op" onclick="AppendValue('*')" id="x">x</button>
+            <button class="btn" onclick="AppendValue('6')" id="6">6</button>
+            <button class="btn" onclick="AppendValue('5')" id="5">5</button>
+            <button class="btn" onclick="AppendValue('4')" id="4">4</button>
         </div>
-        <div>
-            <button id="6">6</button>
-            <button id="5">5</button>
-            <button id="4">4</button>
-            <button id="-">-</button>
+        <div class="btns">
+            <button class="btn-op" onclick="AppendValue('-')" id="-">-</button>
+            <button class="btn" onclick="AppendValue('3')" id="3">3</button>
+            <button class="btn" onclick="AppendValue('2')" id="2">2</button>
+            <button class="btn" onclick="AppendValue('1')" id="1">1</button>
         </div>
-        <div>
-            <button id="3">3</button>
-            <button id="2">2</button>
-            <button id="1">1</button>
-            <button id="x">x</button>
+        <div class="btns">
+            <button class="btn-op" onclick="AppendValue('+')" id="+">+</button>
+            <button class="btn" onclick="AppendValue('0')" id="0">0</button>
+            <button class="btn" onclick="AppendValue('.')" id=".">.</button>
+            <button class="btn" onclick="ResultValue('=')" id="=">=</button>
         </div>
-        <div>
-            <button id="0">0</button>
-            <button id="C">C</button>
-            <button id="=">=</button>
-            <button id="/">/</button>
-        </div>
+        <div class="btns">
+            <button class="btn-op" onclick="ClearValue()" id="C">C</button>
+            <button class="btn" onclick="DeleteValue()" id="del">del</button>
+        </div>    
     </div>
 </body>
 
