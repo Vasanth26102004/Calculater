@@ -23,19 +23,20 @@ body {
   overflow: hidden;
 }
 .input {
-  all: unset;
-  width: 140px;
-  font-size: 20px;
-  overflow-x: hidden;
-  color: black;
-  text-align: end;
-  margin: 10px 5px;
-  font-weight: 900;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    margin: 10px 5px;
+    font-weight: 900;
 }
 
 .output {
-  text-align: end;
-  margin: 10px 5px;
+    font-size: 18px;
+    color: black;
+    text-align: end;
+    margin: 10px 5px;
+    font-weight: 900;
+    color: rgb(148, 148, 148);
 }
 
 .btn-op {
