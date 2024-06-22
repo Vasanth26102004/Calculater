@@ -34,4 +34,5 @@ function ClearValue() {
 function DeleteValue() {
     Equa = Equa.substring(0, Equa.length-1);
     input.textContent = input.textContent.substring(0, input.textContent.length-1);
-}
+    output.textContent = eval(Equa);
+  }
